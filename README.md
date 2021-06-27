@@ -4,7 +4,13 @@
 
 차세대 안드로이드 개발자를 위한: 커니의 코틀린 도서의 2부에서 다루는 **Simple Github** 예제 애플리케이션을 빈 플젝부터 (책시점보다) 최신 기술 및 버전 반영하여 재작성한 저장소입니다.
 
-## 예제 목록
+## 예제 프로젝트 개요
+
+Github API를 이용하여 github 사용자 인증, 저장소를 검색, 저장소 정보 표시하는 기능을 제공하는 프로젝트 입니다.
+
+
+
+## 예제 브랜치
 
 각 장에서 완성하게 되는 코드는 주제별로 구분되어 있는 브랜치로 확인할 수 있습니다.
 
@@ -23,7 +29,7 @@
 | [dagger-step-1](https://github.com/kunny/kunny-kotlin-book/tree/dagger-step-1) | Kotlin | 15 | 프로젝트 개선 3단계: 대거 라이브러리로 필요한 객체 제공하기 | [Dagger](https://google.github.io/dagger/)로 API 및 데이터베이스 접근에 필요한 객체를 필요한 곳에 제공하는 방법 |
 | [dagger-step-2](https://github.com/kunny/kunny-kotlin-book/tree/dagger-step-2) | Kotlin | 15 | 프로젝트 개선 3단계: 대거 라이브러리로 필요한 객체 제공하기 | [Dagger](https://google.github.io/dagger/)로 각 액티비티의 ``ViewModel`` 및 리사이클러뷰 어댑터 객체 제공하기 |
 
-## 빌드 환경
+## 예제 빌드 환경
 
 예제 애플리케이션 빌드에 사용하는 환경은 다음과 같습니다.
 
@@ -35,7 +41,17 @@
 | Compile SDK | `27` |
 | Target SDK | `27` |
 
-## 사용하는 라이브러리 및 버전
+
+## 예제에서 사용한 Github API 제약사항
+[Github API](https://docs.github.com/en/rest)
+
+
+- 사용자 인증 :  웹 애플리케이션 인증 절차만 사용
+- 검색 : 첫번째 페이지의 결과만 표시 (추후 페이징 처리할 수 있도록 제공 노력해보겠습니다)
+- 데이터 모델 : API에서 반환되는 여러 정보 중 필요 정보만 사용 (필요하지 않는 필드는 제거했습니다)
+
+
+## 예제 라이브러리 및 버전
 
 예제 애플리케이션에서 사용하는 라이브러리 및 버전은 다음과 같습니다.
 
