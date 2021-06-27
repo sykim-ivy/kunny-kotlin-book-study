@@ -12,9 +12,9 @@
 
 | 브랜치 | 언어 |  장 | 제목 | 책에서 다루는 내용 |
 | --- | -- | --- | --- | --- |
-| [ch10_java](https://github.com/kunny/kunny-kotlin-book/tree/java) | Java | 10 | Simple Github 예제 프로젝트 소개 | 자바로 작성한 Simple Github 예제 프로젝트 설명 |
-| [kotlin-step-1](https://github.com/kunny/kunny-kotlin-book/tree/kotlin-step-1) | Java + Kotlin | 11 | 코틀린 변환 1단계: 컨버터로 자바 코드를 코틀린 코드로 변환하기 | Simple Github 예제 프로젝트에 코틀린 개발환경 설정, 컨버터를 사용하여 UI 코드를 코틀린으로 변환하는 절차 |
-| [kotlin-step-2](https://github.com/kunny/kunny-kotlin-book/tree/kotlin-step-2) | Kotlin | 12 | 코틀린 변환 2단계: 코틀린다운 코드로 다듬기 | 11장에서 작업했던 코드에서 남은 자바 코드를 컨버터를 사용하여 코틀린으로 변환 후, 변환된 코드를 코틀린 답게 다듬는 방법 |
+| [ch10-java](https://github.com/kunny/kunny-kotlin-book/tree/java) | Java | 10 | Simple Github 예제 프로젝트 소개 | 자바로 작성한 Simple Github 예제 프로젝트 설명 |
+| [ch11-kotlin-step-1](https://github.com/kunny/kunny-kotlin-book/tree/kotlin-step-1) | Java + Kotlin | 11 | 코틀린 변환 1단계: 컨버터로 자바 코드를 코틀린 코드로 변환하기 | Simple Github 예제 프로젝트에 코틀린 개발환경 설정, 컨버터를 사용하여 UI 코드를 코틀린으로 변환하는 절차 |
+| [ch12-kotlin-step-2](https://github.com/kunny/kunny-kotlin-book/tree/kotlin-step-2) | Kotlin | 12 | 코틀린 변환 2단계: 코틀린다운 코드로 다듬기 | 11장에서 작업했던 코드에서 남은 자바 코드를 컨버터를 사용하여 코틀린으로 변환 후, 변환된 코드를 코틀린 답게 다듬는 방법 |
 | [rxjava](https://github.com/kunny/kunny-kotlin-book/tree/rxjava) | Kotlin | 13 | 프로젝트 개선 1단계: RxJava 적용하기 | [RxJava](https://github.com/ReactiveX/RxJava)를 사용하여 이벤트를 기반으로 애플리케이션 동작을 처리하는 방법 |
 | [rxjava-rxbinding](https://github.com/kunny/kunny-kotlin-book/tree/rxjava-rxbinding) | Kotlin | 13 | 프로젝트 개선 1단계: RxJava 적용하기 | [RxBinding](https://github.com/JakeWharton/RxBinding)으로 UI 이벤트를 RxJava로 처리하는 방법 |
 | [arch-components-lifecycle](https://github.com/kunny/kunny-kotlin-book/tree/arch-components-lifecycle) | Kotlin | 14 | 프로젝트 개선 2단계: 안드로이드 아키텍처 컴포넌트 적용하기 | [Lifecycle](https://developer.android.com/topic/libraries/architecture/lifecycle.html)을 사용하여 액티비티 생명주기에 따른 동작 처리하기 |
